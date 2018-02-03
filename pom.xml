@@ -85,6 +85,13 @@
 		</dependency>
 		<!--Spring Security-->
 
+		<!--mail-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-mail</artifactId>
+			<version>1.5.9.RELEASE</version>
+		</dependency>
+		<!--mail-->
 	</dependencies>
 
 	<build>

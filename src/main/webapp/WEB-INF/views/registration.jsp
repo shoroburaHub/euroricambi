@@ -11,7 +11,7 @@
     <title>saveUser</title>
 </head>
 <body>
-<form action="/saveUser" method="post">
+<form action="/registration" method="post">
     <input type="text" name="name">
     <input type="text" name="email">
     <input type="password" name="password">
