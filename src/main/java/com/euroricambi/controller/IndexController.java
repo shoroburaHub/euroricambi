@@ -19,7 +19,6 @@ public class IndexController {
     public String indexAfterLogin() {
         return "redirect:/";
     }
-
     @PostMapping("/home")
     public String home() {
         return "index";
@@ -55,39 +54,9 @@ public class IndexController {
         return "contact";
     }
 
-    @RequestMapping("/news")
-    public String news() {
-        return "news";
-    }
-
-    @RequestMapping("/news-full")
-    public String newsfull() {
-        return "news-full";
-    }
-
     @RequestMapping("/partner-other")
     public String partnerother() {
         return "partner-other";
-    }
-
-    @RequestMapping("/login")
-    public String login() {
-        return "login";
-    }
-
-    @RequestMapping("/EmailSent")
-    public String EmailSent() {
-        return "EmailSent";
-    }
-
-    @RequestMapping("/adminForm")
-    public String adminForm() {
-        return "adminForm";
-    }
-
-    @RequestMapping("/adminTables")
-    public String adminTables() {
-        return "adminTables";
     }
 
 }

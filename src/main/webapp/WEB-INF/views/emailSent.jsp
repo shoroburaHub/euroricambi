@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-         pageEncoding="UTF-8"%>
+         pageEncoding="UTF-8" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -17,8 +17,11 @@
 <body>
 <div class="thanks">
     <!-- https://codepen.io/haniotis/details/KwvYLO/ -->
-    <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52"><circle class="checkmark__circle"
-                                                                                          cx="26" cy="26" r="25" fill="none"/><path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/></svg>
+    <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+        <circle class="checkmark__circle"
+                cx="26" cy="26" r="25" fill="none"/>
+        <path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/>
+    </svg>
 
     <div class="thanks__title">
         Дякуємо за контактну форму!
@@ -27,7 +30,8 @@
         <div class="line"></div>
     </div>
     <div class="thanks__cta">
-        Дякуємо за контактну форму! <a href="${pageContext.request.contextPath}/">Головна</a> Ви отримаєте електронний лист у папці "Вхідні"
+        Дякуємо за контактну форму! <a href="${pageContext.request.contextPath}/">Головна</a> Ви отримаєте електронний
+        лист у папці "Вхідні"
 
     </div>
     <br>
@@ -47,7 +51,7 @@
         margin: 8rem auto;
         width: 30rem;
         color: #343434;
-        font-family: Lato,sans-serif;
+        font-family: Lato, sans-serif;
     }
 
     .checkmark {
@@ -137,6 +141,7 @@
             width: 70%;
         }
     }
+
     @-webkit-keyframes fadein {
         0% {
             opacity: 0;
@@ -148,6 +153,7 @@
             opacity: 1;
         }
     }
+
     @keyframes fadein {
         0% {
             opacity: 0;
@@ -159,16 +165,19 @@
             opacity: 1;
         }
     }
+
     @-webkit-keyframes stroke {
         100% {
             stroke-dashoffset: 0;
         }
     }
+
     @keyframes stroke {
         100% {
             stroke-dashoffset: 0;
         }
     }
+
     @-webkit-keyframes scale {
         0%, 100% {
             -webkit-transform: none;
@@ -179,6 +188,7 @@
             transform: scale3d(1.1, 1.1, 1);
         }
     }
+
     @keyframes scale {
         0%, 100% {
             -webkit-transform: none;
@@ -189,16 +199,19 @@
             transform: scale3d(1.1, 1.1, 1);
         }
     }
+
     @-webkit-keyframes fill {
         100% {
             box-shadow: inset 0px 0px 0px 30px #7ac142;
         }
     }
+
     @keyframes fill {
         100% {
             box-shadow: inset 0px 0px 0px 30px #7ac142;
         }
     }
+
     a {
         color: #EA5C26;
     }

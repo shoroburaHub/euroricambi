@@ -31,6 +31,7 @@
 <body>
 <sec:authentication property="name"/>
 <a href="/login">login</a>
+<a href="/sendMsg">sendMsg</a>
 <sec:authorize access="hasRole('ROLE_ADMIN')">
     <a href="/adminForm">adminForm</a>
 </sec:authorize>
